@@ -1,0 +1,52 @@
+name: mood_tracker_app
+description: "A new MoodTrackerApp project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^5.0.0
+  fl_chart: ^0.40.0
+  shared_preferences: ^2.0.15
+  provider: ^6.1.3
+  screenshot: ^1.3.0
+  path_provider: ^2.0.14
+  share_plus: ^7.2.1
+  table_calendar: ^3.0.0
+  image_picker: ^1.0.4
+  confetti: ^0.6.0
+
+dev_dependencies:
+  integration_test:
+    sdk: flutter  # ✅ solusi aman & pasti cocok
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/angry.png
+    - assets/images/anxious.png
+    - assets/images/boring.png
+    - assets/images/calm.png
+    - assets/images/cool.png
+    - assets/images/excited.png
+    - assets/images/happy.png
+    - assets/images/sad.png
+    - assets/images/sick.png
+    - assets/images/sleepy.png
+    - assets/images/logo.png
+
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/Quicksand-Regular.ttf
+        - asset: assets/fonts/Quicksand-Bold.ttf
